@@ -17,4 +17,4 @@ class SignupUserForm(SignupForm):
         user.save()
         return user
 
-# サインアップがうまくいかない。
+# サインアップがうまくいかなかった

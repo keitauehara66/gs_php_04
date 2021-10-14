@@ -17,7 +17,7 @@ class UserManager(UserManager):
         GlobalUserModel = apps.get_model(self.model._meta.app_label, self.model._meta.object_name)
         user = self.model(email=email, **extra_fields)
         user.password = make_password(password)
-        # 以下が元々入っていたが、エラーが起きるので一行下の一文に書き換える
+        # 以下が元々入っていたが、エラーが起きるので書き換える
         # user.set_password(password)
         user.save(using=self._db)
         return user
