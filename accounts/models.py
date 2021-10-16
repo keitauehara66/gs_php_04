@@ -38,7 +38,7 @@ class UserManager(UserManager):
 
         return self._create_user(email, password, **extra_fields)
 
-    # # ここから削除する？
+    # # ここから使わない
     # def with_perm(self, perm, is_active=True, include_superusers=True, backend=None, obj=None):
     #     if backend is None:
     #         backends = auth._get_backends(return_tuples=True)
@@ -64,7 +64,7 @@ class UserManager(UserManager):
     #             obj=obj,
     #         )
     #     return self.none()
-    # # ここまで削除する？
+    # # ここまで使わない
 
 # venv/lib/python3.8/site-packages/django/contrib/auth/models.py
 # 上記パスからコピー
