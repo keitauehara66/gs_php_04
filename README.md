@@ -10,7 +10,7 @@
   https://gs-django-prac.herokuapp.com/
 
 - テスアカウント<br>
-  メールアドレス：　test@test.com<br>
+  メールアドレス： test@test.com<br>
   パスワード： test12345678
 
 - 注意点<br>
@@ -25,20 +25,20 @@
 # Note
 
 - Djangoについて
-  DjangoのModel-Template-Viewの構成はなんとなく分かってきた
+  DjangoのModel-Template-Viewの構成はなんとなく分かってきた<br>
   一方、認証機能のパッケージ1つとっても、チューニングしようとするとどこで設定したら良いかがまだまだ読み解けない、コードの場所が分かってもいじり方がわからないなど、まだまだ壁は高い
 - Gitについて
-  HEROKUにデプロイするのに何度かエラーを起こし、その際にコミットが増えていき、その所為かGithubにプッシュする際にもエラーを繰り返した
+  HEROKUにデプロイするのに何度かエラーを起こし、その際にコミットが増えていき、その所為かGithubにプッシュする際にもエラーを繰り返した<br>
   どのファイルは上げる必要があり、どのファイルは上げなくて良いなどの判断もよく分かっていない点があり引き続き勉強が必要
 
 # Reference
 
 - フルスタックチャンネル
-  Djangoカスタムユーザー構築チュートリアル レッスン1-3
+  Djangoカスタムユーザー構築チュートリアル レッスン1-3<br>
   https://www.youtube.com/watch?v=bM4_NSkcS-Y&list=PLoSZs76tLtJhKgmxYS9rpRrmWlOFVk2Hk&index=1
 
 - 本堂俊輔のITエンジニアチャンネル
-  djangoフォームを自由自在に操ろう！ | djangoチュートリアル #8
+  djangoフォームを自由自在に操ろう！ | djangoチュートリアル #8<br>
   https://www.youtube.com/watch?v=0WIoJor2Hhg
 
 - DjangoアプリをHerokuにデプロイする方法  
